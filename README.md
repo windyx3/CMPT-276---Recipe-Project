@@ -1,12 +1,16 @@
 # **RECIPE PROJECT**
 
+## Version Information
+**Ruby**: 3.2.2
+**Rails**: 7.1.0
+**Yarn**: 1.22.19
+**PostgreSQL**: 14.9
 
+## add later
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
-
-* Ruby version
 
 * System dependencies
 
