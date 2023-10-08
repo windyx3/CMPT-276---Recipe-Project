@@ -1,7 +1,7 @@
-#Info about global layouts
+# Info about global layouts
 
-##everything under "layouts" folder is global
+## everything under "layouts" folder is global
 will show up in all pages defined in "main"
 
-##all files with "_" prefix is a partial
+## all files with "_" prefix is a partial
 mostly for code cleanup, will still be part of global
