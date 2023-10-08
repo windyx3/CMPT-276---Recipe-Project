@@ -3,6 +3,7 @@
 ## Version Information
 **Ruby**: 3.2.2  
 **Rails**: 7.1.0  
+**Node**: 20.8.0  
 **Yarn**: 1.22.19  
 **PostgreSQL**: 14.9  
 
