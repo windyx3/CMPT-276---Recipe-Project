@@ -4,6 +4,10 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+
+# Ignore database.yml for personal localhost testing
+#dooesnt work/config
+
 # Ignore bundler config.
 /.bundle
 
@@ -39,6 +43,3 @@
 
 /node_modules
 
-# Ignore database.yml for personal localhost testing
-/config/database.yml
-/config/storage.yml
