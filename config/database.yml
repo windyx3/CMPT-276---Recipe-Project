@@ -15,9 +15,11 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: postgres
-  password:  mpa102 # my default pass goes here
-  host: localhost
+  username: recipe_db_hfnc_user
+  password:  fh578pzxknWUIXuiZn977uXCuEEGeij2 # my default pass goes here
+  host: dpg-ckir6436fquc739km7s0-a
+
+
 
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
@@ -82,7 +84,4 @@ test:
 #
 production:
   <<: *default
-  database: recipe_proj_production
-  username: recipe_proj
-  password: <%= ENV["RECIPE_PROJ_DATABASE_PASSWORD"] %>
   url: <%= ENV['DATABASE_URL'] %>
